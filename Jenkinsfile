@@ -31,4 +31,5 @@ stages {
 		archive 'TheExampleApp/bin/Release/**'
 	        }
         }
+  }
 }
