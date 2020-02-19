@@ -26,6 +26,9 @@ stages {
                 echo 'Deploying....'
             }
         }
-	stage 'Archive'
-		archive 'TheExampleApp/bin/Release/**'    }
+	stage ('Archive'){
+		steps{
+		archive 'TheExampleApp/bin/Release/**'
+	        }
+        }
 }
