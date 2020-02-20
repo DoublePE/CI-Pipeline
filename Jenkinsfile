@@ -18,7 +18,7 @@ stages {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing...'
 		bat 'dotnet test TheExampleApp.Tests/TheExampleApp.Tests.csproj'
             }
         }
